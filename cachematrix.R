@@ -33,5 +33,6 @@ cacheSolve <- function(x, ...) {
 	m<-solve(data,...)
 	x$setCacheMatri(m)
 	m
+}
 
 
